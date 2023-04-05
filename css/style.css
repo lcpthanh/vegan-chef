@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins';
+    color: #202020;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+#carousel {
+    background-image: url('../assets/carousel.png');
+    height: 40rem;
+}
