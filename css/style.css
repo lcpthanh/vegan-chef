@@ -5,11 +5,28 @@ body {
     color: #202020;
 }
 
-main {
-    margin-top: 10rem;
+footer {
+    height: 10rem;
+}
+
+.margin-top-8rem {
+    margin-top: 8rem;
+}
+
+.flex {
+    display: flex;
 }
 
 #carousel {
     background-image: url('../assets/carousel.png');
     height: 40rem;
+}
+
+#newsletter-header {
+    margin: 0 2rem 0 0;
+    color: white;
+}
+
+.bg-green {
+    background-color: #03A800;
 }
