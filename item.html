@@ -15,7 +15,9 @@
   <body>
     <nav class="navbar">
       <div class="container">
-        <a class="navbar-brand"><img src="assets/Logo.png" alt="Logo" /></a>
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/Logo.png" alt="Logo"
+        /></a>
         <form class="d-flex" role="search">
           <input
             class="form-control me-2"
@@ -128,22 +130,32 @@
               </div>
               <div class="col-3"><h3 class="txt-right">$799</h3></div>
             </div>
+            <br>
+            <div class="row">
+              <button class="btn bg-green btn-success btn-payment" onclick="window.location.href='checkout.html'";>
+                Process to Payment
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <footer class="bg-green margin-top-8rem align-items-center flex">
-        <div class="container text-white align-items-center">
-            <div class="row align-items-center">
-                <div class="col-md-4"><img src="assets/Logo-white.png" alt=""></div>
-                
-                <div class="col-md-4 text-lg-center">About Us | Delivery | Help & Support | F.A.Q.s</div>
-                
-                <div class="col-md-4 text-lg-end">Contact: +1 (123) 456-7890</div>
-            </div>
-            <div class="flex justify-content-center"><img src="assets/social-icons.png" alt="" sizes="108px"></div>
+      <div class="container text-white align-items-center">
+        <div class="row align-items-center">
+          <div class="col-md-4"><img src="assets/Logo-white.png" alt="" /></div>
+
+          <div class="col-md-4 text-lg-center">
+            About Us | Delivery | Help & Support | F.A.Q.s
+          </div>
+
+          <div class="col-md-4 text-lg-end">Contact: +1 (123) 456-7890</div>
         </div>
+        <div class="flex justify-content-center">
+          <img src="assets/social-icons.png" alt="" sizes="108px" />
+        </div>
+      </div>
     </footer>
   </body>
 </html>

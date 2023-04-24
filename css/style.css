@@ -29,6 +29,7 @@ footer {
 
 .bg-green {
     background-color: #03A800;
+    color: white;
 }
 
 .bg-grey {
@@ -62,6 +63,60 @@ footer {
     padding: 1rem;
 }
 
+.dashed-border {
+    border: 0.1rem dashed #03A800;
+    border-radius: 0.5rem;
+}
+
 .offer p:last-child {
     margin: 0;
+}
+
+.checkout-address {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.centered {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkout p {
+    margin: 0;
+}
+
+.checkout > div {
+    margin-right: 1rem;
+}
+
+.btn-payment {
+    min-height: 3.5rem;
+}
+
+button.bg-green:hover {
+    background-color: green;
+    color: white;
+}
+
+button.dashed-border:hover {
+    border-color: #202020;
+}
+
+span.option-active {
+    border-bottom: 1px solid #03A800;
+    color: #03A800;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+}
+
+span.option {
+    border-bottom: 1px solid #202020;
+    color: #202020;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
 }
