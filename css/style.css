@@ -30,3 +30,38 @@ footer {
 .bg-green {
     background-color: #03A800;
 }
+
+.bg-grey {
+    background-color: #202020;
+    color: white;
+}
+
+.card {
+    border: none;
+}
+
+.padding {
+    padding: 2rem 0;
+}
+
+.txt-green {
+    color: #03A800;
+}
+
+.txt-lightgrey {
+    color: #808080;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.offer {
+    border: 0.1rem dashed #03A800;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.offer p:last-child {
+    margin: 0;
+}
